@@ -23,25 +23,64 @@ It introduces students to software engineering by building a motivational quotes
    ```bash
    git clone https://github.com/soloeinsteinmit/inspireme-fastapi-demo.git
    cd inspireme-fastapi-demo
-
    ```
 
-2. Install dependencies:
+2. Create a Python virtual environment (recommended):
+
+   - On Windows (VSCode Terminal (or any IDE you're using)/cmd.exe):
+
+     ```cmd
+     python -m venv .venv
+     ```
+
+   - On macOS / Linux:
+
+     ```bash
+     python3 -m venv .venv
+     ```
+
+3. Activate the virtual environment before installing dependencies:
+
+   - On Windows (cmd.exe):
+
+     ```cmd
+     .venv\Scripts\activate
+     ```
+
+   - On PowerShell:
+
+     ```powershell
+     .venv\Scripts\Activate.ps1
+     ```
+
+   - On macOS / Linux:
+
+     ```bash
+     source .venv/bin/activate
+     ```
+
+4. Install dependencies:
 
    ```bash
    pip install fastapi uvicorn jinja2
    ```
 
-3. Run the app:
+   (Optional) To freeze the exact dependencies for later use:
+
+   ```bash
+   pip freeze > requirements.txt
+   ```
+
+5. Run the app:
 
    ```bash
    uvicorn main:app --reload --port 8080
    ```
 
-4. Open in your browser:
+6. Open in your browser:
 
-   ```
-   http://127.0.0.1:8000
+   ```txt
+   http://127.0.0.1:8080
    ```
 
 ## 💡 Future Improvements
@@ -57,11 +96,15 @@ It introduces students to software engineering by building a motivational quotes
 ```
 inspireme-fastapi-demo/
 │
-├── main.py                 # FastAPI app entry point
-├── templates/
-│   └── index.html          # Main HTML template
-├── static/
-│   └── style.css           # CSS styling
-├── README.md
+├── main.py                 # FastAPI app entry point(our backend logic — our server & routes)
+├── templates/              # HTML templates that form the frontend
+│   └── index.html
+├── static/                 # Static assets like CSS, JS, images
+│   └── style.css
+├── README.md               # Documentation for developers
 └── .gitignore
 ```
+
+**Created by:** Solomon Eshun | [LinkedIn](https://www.linkedin.com/in/solomon-eshun-788568177/) | [Medium](https://soloshun.medium.com/) <br/>
+**Workshop:** Tech & Beyond Expo Ghana 2025 <br/>
+**Topic:** _Software Engineering in the Age of AI_
