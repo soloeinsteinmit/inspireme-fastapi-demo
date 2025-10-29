@@ -150,5 +150,5 @@ You’re not just learning to code — you’re learning to **engineer the futur
 ### ✍️ Authored by:
 
 **Solomon Eshun**  
-Workshop: _Software Engineering and How AI is Transforming It_  
-Tech & Beyond Expo Ghana 2025
+Workshop: _Software Engineering in the Age of AI_  
+Tech & Beyond Expo Ghana 2025, Academic City University
