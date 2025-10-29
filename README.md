@@ -4,12 +4,14 @@ This project was built during the **Tech & Beyond Expo Ghana** workshop on Softw
 It introduces students to software engineering by building a motivational quotes web app using **FastAPI**.
 
 ## 🧠 What You'll Learn
-- What software engineering is and why it matters  
-- How to build a simple backend using FastAPI  
-- How HTML templates interact with backend logic  
-- How to add new features and maintain clean, modular code  
+
+- What software engineering is and why it matters
+- How to build a simple backend using FastAPI
+- How HTML templates interact with backend logic
+- How to add new features and maintain clean, modular code
 
 ## ⚙️ Tech Stack
+
 - **Backend:** FastAPI (Python)
 - **Frontend:** HTML + CSS (Jinja templates)
 - **Data:** List of quotes (hardcoded for simplicity)
@@ -17,10 +19,12 @@ It introduces students to software engineering by building a motivational quotes
 ## 🚀 Getting Started
 
 1. Clone this repository:
+
    ```bash
    git clone https://github.com/soloeinsteinmit/inspireme-fastapi-demo.git
    cd inspireme-fastapi-demo
 
+   ```
 
 2. Install dependencies:
 
@@ -31,7 +35,7 @@ It introduces students to software engineering by building a motivational quotes
 3. Run the app:
 
    ```bash
-   uvicorn main:app --reload
+   uvicorn main:app --reload --port 8080
    ```
 
 4. Open in your browser:
@@ -42,9 +46,9 @@ It introduces students to software engineering by building a motivational quotes
 
 ## 💡 Future Improvements
 
-* Add an AI model to generate new quotes
-* Store quotes in a database
-* Create a REST API endpoint `/api/quote` for mobile apps
+- Add an AI model to generate new quotes
+- Store quotes in a database
+- Create a REST API endpoint `/api/quote` for mobile apps
 
 ---
 
