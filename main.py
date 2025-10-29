@@ -25,4 +25,8 @@ quotes = [
 def get_quote(request: Request):
     # Select a random quote
     quote = random.choice(quotes)
-    return templates.TemplateResponse("index.html", {"request": request, "quote": quote})
+    return templates.TemplateResponse("index.html", {
+            "request": request, 
+            "quote": quote
+        }
+    )
